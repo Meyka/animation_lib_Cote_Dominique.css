@@ -127,11 +127,11 @@ Pour utiliser les animations, vous devrez donc choisir une classe de temps de la
 Par exemple, si vous voulez utiliser l'animation shakeShake sur un div, vous ajouter les classes à votre objet comme ceci :
 
 
-<div class="temps2sec anim2 infini"></div>
+`<div class="temps2sec anim2 infini"></div>`
 
 > ou
 
-<div class="temps2sec anim2"></div>
+`<div class="temps2sec anim2"></div>`
 
 > si vous ne voulez pas que l'animation soit en continu...
 
