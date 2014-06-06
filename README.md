@@ -1,12 +1,12 @@
 #Guide d'utilisation pour les nulls
-======
+===
 
 
 Bonjour…
 Vous venez de trouver le fruit de plusieurs heures de concentration et de méditation … 
 Alors voici le guide pour comprendre comment bien utiliser ces animations sans que la planète explose.
 
-------
+---
 
 
 ####Étape 1
@@ -27,19 +27,19 @@ Pour se faire, ajouter le fichier `animation_lib_Cote_Dominique.css` à votre pa
 `<html>...<link rel="stylesheet" href="style/animation_lib_Cote_Dominique.css" /></html>`
 
 
-##On parle d'animation mais, on les utilise comment ? et qui est quoi ?
+##On parle d'animation mais, on les utilise comment? et qui est quoi?
 
 
 Les animations sont divisés en **trois** catégories.
 
 1. L'animation tel quel :
-⋅⋅* .anim1, .anim2, .anim3, .anim4, .anim5
+.anim1, .anim2, .anim3, .anim4, .anim5
 
 2. La durée de l'animation :
-⋅⋅* .temps1sec, .temps2sec, .temps3sec
+.temps1sec, .temps2sec, .temps3sec
 
 3. La classe infini :
-⋅⋅* .infini
+.infini
 
 #####La durée :
 
@@ -48,11 +48,11 @@ Il ne faut donc pas oublier de la mettre sinon votre animation risque de ne pas 
 
 la classe :
 
-⋅⋅* .temps1sec = durée de 1sec
+.temps1sec = durée de 1sec
 
-⋅⋅* .temps2sec = durée de 2sec
+.temps2sec = durée de 2sec
 
-⋅⋅* .temps3sec = durée de 3sec
+.temps3sec = durée de 3sec
 
 
 #####Infini :
@@ -61,7 +61,7 @@ La catégorie 3, si toute fois vous l'ajouter à votre animation, fera en sorte 
 Elle est donc facultative.
 
 
-##Que font les animations ? :
+##Cw que font les animations :
 
 	
 ###Animation 1 - pulsation
@@ -77,7 +77,7 @@ Premier battement en bleu pâle en opacité 100% vers un second battement qui se
 
 ###Animation 2 - shakeShake
 
-Il s'agit de la classe .anim2
+Il s'agit de la classe `.anim2`
 À mixer avec la classe .temps1sec et .temps2sec dans le meilleur des mondes… le 3sec n'étant pas idéal pour cette animation
 
 L'animation bleu pâle fait un mouvement vers le haut sur l'axe des Y de 20 pixel pour ensuite grossir et changer de nuance de bleu.
@@ -86,7 +86,7 @@ Elle se déplace de gauche à droite sur l'axe des X pour finalement reprendre s
 
 ###Animation 3 - Roll_OnMeVoisOnMeVoisPlus
 
-Il s'agit de la classe .anim3
+Il s'agit de la classe `.anim3`
 À mixer avec la classe .temps2sec et .temps3sec dans le meilleur des mondes… le 1sec n'étant pas idéal pour cette animation
 
 L'animation fait tourné la forme sur elle-même de 300deg avant que celle-ci se déplace vers la droite sur l'axe des x.
@@ -98,7 +98,7 @@ Pourquoi ? Parce que vous ne le verrai pas rotationer fort.. mais uniquement lor
 
 ###Animation 4 - pendule
 
-Il s'agit de la classe .anim4
+Il s'agit de la classe `.anim4`
 À mixer avec la classe .temps2sec et .temps3sec dans le meilleur des mondes… le 1sec n'étant pas idéal pour cette animation
 
 L'animation crée une sensation de pendule.
@@ -110,13 +110,13 @@ Pour accentuer l'impression de pendule, les objets ronds sont conseillés.
 
 ###Animation 5 - bouncingBall
 
-Il s'agit de la classe .anim5
+Il s'agit de la classe `.anim5`
 À mixer avec la classe .temps2sec dans le meilleur des mondes… le 1sec et le 3sec n'étant pas idéal pour cette animation
 
 L’animation fait le mouvement d’une balle qui rebondit.
-Elle se donne une force de poussé au début, ce qui la fait écrasé un peu ( en largeur ) et se propulse dans les airs ( sur l'axe des Y ) en étant écrasé ( en longueur ).
+Elle se donne une force de poussé au début, ce qui l'a fait écrasé un peu ( en largeur ) et se propulse dans les airs ( sur l'axe des Y ) en étant écrasé ( en longueur ).
 À la moitié de l'animation, il y a un effet de suspend de la balle qui redevient ronde durant un court instant pour finalement se déformer jusqu'à l'effet d'écrasement à la fin.
-Une touche de couleur à été modifier lors de l'ascension de la balle ( du rose au orange ) et à la descente de celle-ci ( orange au rose ).
+Une touche de couleur à été changé lors de l'ascension de la balle ( du rose au orange ) et à la descente de celle-ci ( orange au rose ).
 
 
 ##Ajouter l'animation à votre objet :
@@ -124,19 +124,18 @@ Une touche de couleur à été modifier lors de l'ascension de la balle ( du ros
 Pour utiliser les animations, vous devrez donc choisir une classe de temps de la catégorie 2 et la mixer avec une des animations de la catégorie 1.
 À vous de choisir de prendre la classe infini si vous le souhaitez.
 
-	Par exemple, si vous voulez utiliser l'animation shakeShake sur un div, vous ajouter les classes à votre objet comme ceci :
+Par exemple, si vous voulez utiliser l'animation shakeShake sur un div, vous ajouter les classes à votre objet comme ceci :
 
-```javascript
+
 <div class="temps2sec anim2 infini"></div>
-````
 
 > ou
 
-	`<div class="temps2sec anim2"></div>`
+<div class="temps2sec anim2"></div>
 
-> si vous ne voulez pas que l'animation soit en continu.
+> si vous ne voulez pas que l'animation soit en continu...
 
-	Bien entendu, si vous désirez animer un simple div, vous devrez lui attribuer une seconde classe pour lui donner une dimension - width et height.
+Bien entendu, si vous désirez animer un simple div, vous devrez lui attribuer une seconde classe pour lui donner une dimension - width et height.
 
 	Par exemple, créer une classe :
 
@@ -148,22 +147,22 @@ Pour utiliser les animations, vous devrez donc choisir une classe de temps de la
 
 #À noter
 
-	Si vous désirez utiliser les animations sur du texte, et que vous voulez garder les couleurs de fond qui se trouve déjà dans l'animation, enlever le background- de backgound-color.
+Si vous désirez utiliser les animations sur du texte, et que vous voulez garder les couleurs de fond qui se trouve déjà dans l'animation, enlever le background- de backgound-color.
 	
 	exemple :
 
 	background-color: #C06;
 
-	vous écrirez alors :
+> vous écrirez alors :
 
 	color: #C06;
 
-	Ainsi la couleur s'appliquera au texte et non au fond de votre objet.
-	Vous pouvez aussi enlever la couleur complètement si vous le souhaiter.
+Ainsi la couleur s'appliquera au texte et non au fond de votre objet.
+Vous pouvez aussi enlever la couleur complètement si vous le souhaiter.
 
-	De plus, pour ne pas vous donner la sensation que la planète explose…
-	Vous devrez probablement donner une largeur (width) à votre texte si vous ne voulez pas que l'animation fasse la page au complet.
-	Après quoi, mettez le texte beau comme vous voulez, un text-align: center; si vous voulez qu'il soit beau dans le milieu de votre boîte texte.
+De plus, pour ne pas vous donner la sensation que la planète explose…
+Vous devrez probablement donner une largeur (width) à votre texte si vous ne voulez pas que l'animation fasse la page au complet.
+Après quoi, mettez le texte beau comme vous voulez, un text-align: center; si vous voulez qu'il soit beau dans le milieu de votre boîte texte.
 
-	Si toute fois l'envi vous prend de tout modifier le code afin de créer de nouvelle expérience avec mes animations, sachez que je ne suis aucunement responsable du résultat.
-	Alors si le tout est laid, vous ne me trouverai pas.
+Si toute fois l'envi vous prend de tout modifier le code afin de créer de nouvelle expérience avec mes animations, sachez que je ne suis aucunement responsable du résultat.
+Alors si le tout est laid, vous ne me trouverai pas.
