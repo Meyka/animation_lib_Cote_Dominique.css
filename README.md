@@ -165,4 +165,4 @@ Vous devrez probablement donner une largeur (width) à votre texte si vous ne vo
 Après quoi, mettez le texte beau comme vous voulez, un text-align: center; si vous voulez qu'il soit beau dans le milieu de votre boîte texte.
 
 Si toute fois l'envi vous prend de tout modifier le code afin de créer de nouvelle expérience avec mes animations, sachez que je ne suis aucunement responsable du résultat.
-Alors si le tout est laid, vous ne me trouverai pas.
+Alors si le tout est laid, ce n'est plus mon problème.
