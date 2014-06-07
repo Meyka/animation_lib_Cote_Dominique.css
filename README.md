@@ -112,11 +112,12 @@ Pour accentuer l'impression de pendule, les objets ronds sont conseillés.
 
 Il s'agit de la classe `.anim5`
 À mixer avec la classe .temps2sec dans le meilleur des mondes… le 1sec et le 3sec n'étant pas idéal pour cette animation
+Il est FORTEMENT conseiller d'utiliser la classe .infini sur cette animation, sinon l'effet d'un objet qui saute ne sera pas a son plein potentiel
 
-L’animation fait le mouvement d’une balle qui rebondit.
-Elle se donne une force de poussé au début, ce qui l'a fait écrasé un peu ( en largeur ) et se propulse dans les airs ( sur l'axe des Y ) en étant écrasé ( en longueur ).
-À la moitié de l'animation, il y a un effet de suspend de la balle qui redevient ronde durant un court instant pour finalement se déformer jusqu'à l'effet d'écrasement à la fin.
-Une touche de couleur à été changé lors de l'ascension de la balle ( du rose au orange ) et à la descente de celle-ci ( orange au rose ).
+L’animation fait le mouvement d’un objet qui saute.
+L'objet se donne une force de poussé au début, ce qui le fait écrasé un peu ( en largeur ) et se propulse dans les airs ( sur l'axe des Y ) en étant écrasé ( en longueur ).
+À la moitié de l'animation, il y a un effet de suspend de l'objet qui redevient rond, pour finalement retomber en ayant l'effet d'écrasement à la fin.
+Une touche de couleur à été changé lors de l'ascension de l'objet ( du rose au orange ) et à la descente de celui-ci ( orange au rose ).
 
 
 ##Ajouter l'animation à votre objet :
