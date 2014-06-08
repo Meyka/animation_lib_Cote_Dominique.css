@@ -1,5 +1,4 @@
 #Guide d'utilisation pour les nulls
-===
 
 
 Bonjour…
@@ -61,7 +60,7 @@ La catégorie 3, si toute fois vous l'ajouter à votre animation, fera en sorte 
 Elle est donc facultative.
 
 
-##Cw que font les animations :
+##Ce que font les animations :
 
 	
 ###Animation 1 - pulsation
